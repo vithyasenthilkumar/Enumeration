@@ -32,41 +32,34 @@ Google hacking, also known as Google dorking, is a technique that involves using
 
 site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
 Following searches for all the sites that is in the domain yahoo.com
-
+### Output
+![image](https://github.com/vithyasenthilkumar/Enumeration/assets/127177445/672e48cd-bdff-40d3-bea6-e71a504bb773)
 filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain yahoo.com
-
-
-
+### Output
+![image](https://github.com/vithyasenthilkumar/Enumeration/assets/127177445/51cd5a33-0e76-45b8-bd77-3e25cb0c85d9)
 intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
-
-
+### Output
+![image](https://github.com/vithyasenthilkumar/Enumeration/assets/127177445/aef55b0e-18e2-4974-aafa-1ecf9eaa3f21)
 inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
-
+### Output
+![image](https://github.com/vithyasenthilkumar/Enumeration/assets/127177445/31fe3a2c-b3da-4d35-9af2-c5664f0fe7d0)
 intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
-
+### Output
+![image](https://github.com/vithyasenthilkumar/Enumeration/assets/127177445/79c49be8-66ba-498e-bf2f-cae562650f07)
 link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
-
+### Output
+![image](https://github.com/vithyasenthilkumar/Enumeration/assets/127177445/29c2b50d-285f-4eb9-8db9-7739afcecc4b)
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
-
- 
+### Output
+![image](https://github.com/vithyasenthilkumar/Enumeration/assets/127177445/c044539d-c4c3-4667-a2bd-2718d810e7fc)
 #DNS Enumeration
-
-
 ##DNS Recon
 provides the ability to perform:
 Check all NS records for zone transfers
 Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
 Perform common SRV Record Enumeration
 Top level domain expansion
-## OUTPUT:
-
-
-
-
-
-
-
 ##dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
 
@@ -96,16 +89,11 @@ Telnet allows to connect to remote host based on the port no. For smtp port no i
 telnet <host address> 25 to connect
 and issue appropriate commands
   
- ##Output
-  
   
 
 ## nmap –script smtp-enum-users.nse <hostname>
 
 The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server by issuing the VRFY, EXPN or RCPT TO commands. The goal of this script is to discover all the user accounts in the remote system.
-
-
-## OUTPUT:
 
 
 ## RESULT:
